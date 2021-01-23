@@ -28,9 +28,9 @@ Tokenization and annotation are made manually. Please note that this is a limite
 
 If you submit papers on GreatSQL, please consider sending a pull request to merge your results onto the leaderboard. By submitting, you acknowledge that your results are obtained purely by training on the training split and tuned on the dev split (e.g. you only evaluted on the test set once).
 
-### Weakly supervised without logical forms
+### supervised learning (Result of the test set only)
 
-| Model | Test execution accuracy |
+| Model | Test exact matching accuracy |
 | :---: | :---:         |
 | [Modified SQLNet<br />(Xu 2017)](https://arxiv.org/abs/1711.04436) | 10.9 |
 | [Modified Seq2SQL<br />(Zhong 2017)](https://arxiv.org/abs/1709.00103) | 1.9 |
@@ -143,7 +143,8 @@ These files are contained in the `*.json` files. A line looks like the following
 ### Databases
 
 The `database-names` file contains the full list of all used databases in this dataset. The `schema_index` attribute follows the same order of the schemas in the `database-names` file. 
+<br />
 For example:
-`schema_index`: 0 is academia
-`schema_index`: 8 is yelp
-`schema_index`: 175 is Stack Overflow
+`schema_index`: 0 is academia <br />
+`schema_index`: 8 is yelp <br />
+`schema_index`: 175 is Stack Overflow <br />
