@@ -148,9 +148,9 @@ library
 digital assets
 assets reservations
 library 2
-geography => 5000
-statsquestions => 6000
-Sales Orders Database => 2000
+geography
+statsquestions
+Sales Orders Database
 travel agents
 education teachers
 movie making(simplified)
