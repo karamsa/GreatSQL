@@ -32,8 +32,8 @@ If you submit papers on GreatSQL, please consider sending a pull request to merg
 
 | Model | Test execution accuracy |
 | :---: | :---:         |
-| [Modified SQLNet (Xu et al, 2017)] | 10.9 |
-| [Modified Seq2SQL (Zhong et al 2017)] | 1.9 |
+| [Modified SQLNet<br />(Xu 2017)](https://arxiv.org/abs/1711.04436) | 10.9 |
+| [Modified Seq2SQL<br />(Zhong 2017)](https://arxiv.org/abs/1709.00103) | 1.9 |
 
 
 
@@ -140,4 +140,10 @@ These files are contained in the `*.json` files. A line looks like the following
   },
 ```
 
+### Databases
 
+The `database-names` file contains the full list of all used databases in this dataset. The `schema_index` attribute follows the same order of the schemas in the `database-names` file. 
+For example:
+`schema_index`: 0 is academia
+`schema_index`: 8 is yelp
+`schema_index`: 175 is Stack Overflow
