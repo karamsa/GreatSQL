@@ -1,0 +1,1 @@
+{"customers": ["id", "name", "phone", "address", "#country_code"], "services": ["id", "name", "description"], "service_requests": ["id", "date", "status", "#customer_id", "#service_id", "#port_code"], "countries": ["code", "name"], "ports": ["code", "name", "description", "#country_code"]}

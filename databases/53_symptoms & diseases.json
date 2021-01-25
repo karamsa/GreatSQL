@@ -1,0 +1,1 @@
+{"diseases": ["id", "short_name", "latin_name", "description"], "diseases_symptoms": ["#disease_id", "#symptom_id"], "symptoms": ["id", "name", "description"], "patients": ["id", "name", "date_of_birth", "address", "gender", "phone", "email", "address"], "patients_symptoms": ["#symptom_id", "#patient_id"]}

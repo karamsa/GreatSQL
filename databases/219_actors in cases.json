@@ -1,0 +1,1 @@
+{"actors": ["id", "first_name", "last_name", "middle_name", "email", "date_of_birth"], "roles": ["code", "description"], "cases": ["id", "reference", "address", "start_datetime", "end_datetime", "duration", "address"], "cases_actors": ["start_date", "end_date", "#case_id", "#actor_id", "#role_code"]}

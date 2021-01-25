@@ -1,0 +1,1 @@
+{"portals": ["id", "name", "max_link_count", "number_in_use", "description", "#portal_type_code"], "users": ["id", "first_name", "last_name", "address", "login", "password", "email", "country", "phone", "photo_url"], "users_portals": ["#user_id", "#portal_id"], "portals_types": ["code", "description"]}

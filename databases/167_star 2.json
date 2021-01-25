@@ -1,0 +1,1 @@
+{"accounts": ["id", "type", "name", "opening_date", "closing_date"], "periods": ["id", "name", "start_date", "end_date"], "employees": ["id", "name", "joining_date", "email", "phone"], "transactions": ["id", "amount", "#account_id", "#department_code", "#currency_code", "#period_id", "#employee_id"], "currencies": ["code", "name"], "departments": ["code", "name"]}

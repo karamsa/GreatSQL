@@ -1,0 +1,1 @@
+{"areas": ["code", "name", "details"], "patrol_districts": ["id", "name", "details", "#area_code"], "neighbourhoods": ["id", "name", "#patrol_district_id"]}

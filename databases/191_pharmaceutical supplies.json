@@ -1,0 +1,1 @@
+{"pharmaceutical_items": ["id", "name", "cost", "description", "quantity", "level", "dosage", "method_of_administration", "#clinic_id", "#supplier_id"], "clinics": ["id", "name"], "suppliers": ["id", "short_name", "long_name", "address"], "non_pharmaceutical_items": ["id", "name", "cost", "description", "quantity", "level", "#clinic_id", "#supplier_id"]}

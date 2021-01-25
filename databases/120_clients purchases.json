@@ -1,0 +1,1 @@
+{"clients": ["id", "name", "address", "phone", "comments", "natural_hair_color", "city", "state", "email"], "staff_members": ["code", "name", "address", "job_title", "contact_email"], "purchases": ["id", "date", "quantity", "status", "#client_id", "#staff_member_code"]}

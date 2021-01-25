@@ -1,0 +1,1 @@
+{"locations_types": ["code", "description"], "locations": ["id", "name", "description", "address", "#location_type_code"], "stores": ["id", "number", "name", "surface", "#location_id"]}

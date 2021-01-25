@@ -1,0 +1,1 @@
+{"services_types": ["code", "description"], "services": ["id", "name", "#service_type_code"], "events": ["id", "details", "#service_id"], "participants_types": ["code", "description"], "participants": ["id", "name", "#participant_type_code"], "events_participants": ["#event_id", "#participant_id"]}

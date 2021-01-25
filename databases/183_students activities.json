@@ -1,0 +1,1 @@
+{"students": ["id", "first_name", "middle_name", "last_name", "mobile_number", "email", "login", "password", "address"], "students_activities": ["amount_paid", "date", "#student_id", "#activity_id", "#payment_method_code"], "activities": ["id", "name", "cost", "description", "status"], "payments_methods": ["code", "description"]}

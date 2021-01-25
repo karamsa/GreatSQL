@@ -1,0 +1,1 @@
+{"answers": ["id", "creation_date", "update_date", "score", "body", "#question_id", "#user_id"], "questions": ["id", "creation_date", "update_date", "score", "title", "body", "#user_id"], "questions_tags": ["#question_id", "#tag_id"], "tags": ["id", "term"], "users": ["id", "first_name", "last_name", "username", "email", "photo_url", "profile_id", "views"]}

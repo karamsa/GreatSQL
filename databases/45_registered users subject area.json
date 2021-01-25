@@ -1,0 +1,1 @@
+{"departments": ["code", "name", "description"], "users": ["id", "first_name", "last_name", "email", "password", "#department_code"], "networks": ["id", "name", "details"], "networks_users": ["#network_id", "#user_id"], "alerts": ["id", "name"], "users_alerts": ["registration_date", "unregistration_date", "#user_id", "#alert_id"]}

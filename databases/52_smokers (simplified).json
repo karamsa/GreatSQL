@@ -1,0 +1,1 @@
+{"treatments": ["id", "name", "description"], "smokers_treatments": ["#smoker_id", "#treatment_id"], "smokers": ["id", "height", "weight", "name", "date_of_birth", "address", "gender", "initial_diagnosis"], "assessments": ["#smoker_id", "#employee_id"], "employees": ["id", "name", "speciality", "qualifications", "gender", "birth_date"]}

@@ -1,0 +1,1 @@
+{"airports": ["code", "name", "location", "latitude", "longitude", "elevation"], "flights": ["number", "departure_time", "arrival_time", "#airport_code", "#airline_code", "#aircraft_type_code"], "airlines": ["code", "name", "country"], "aircrafts_types": ["code", "name", "description"]}

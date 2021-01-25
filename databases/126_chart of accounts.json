@@ -1,0 +1,1 @@
+{"organisations": ["id", "name", "description"], "accounting_categories": ["id", "name", "description"], "accounting_structures": ["id", "name", "description", "#organisation_id"], "accounting_structures_items": ["id", "name", "description", "details", "#accounting_structure_id", "#accounting_category_id"]}

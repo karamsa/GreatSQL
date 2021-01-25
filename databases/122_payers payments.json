@@ -1,0 +1,1 @@
+{"customers_payees": ["id", "name", "address", "email", "phone"], "accounts": ["id", "name", "current_balance", "bank_name", "opening_date", "#customer_payee_id"], "payments": ["id", "date", "amount", "status", "#payer_id", "#payment_method_code", "#account_id"], "payers": ["id", "name", "address", "email"], "payments_methods": ["code", "name"]}

@@ -1,0 +1,1 @@
+{"clubs": ["id", "name", "location"], "athletes": ["id", "first_name", "surname", "address", "gender", "#club_id", "#category_code"], "athletes_events": ["#athlete_id", "#event_id"], "categories": ["code", "description"], "events": ["id", "name", "description", "distance", "date", "#event_type_code"], "events_types": ["code", "description"]}

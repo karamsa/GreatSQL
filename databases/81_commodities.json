@@ -1,0 +1,1 @@
+{"commodities_types": ["code", "name"], "commodities": ["id", "name", "#commodity_type_code"], "parties": ["id", "label", "description"], "deals": ["id", "datetime", "currency", "price", "amount", "terms_and_conditions", "#commodity_id", "#party_id", "#counterparty_id"], "counterparties": ["id", "name"]}

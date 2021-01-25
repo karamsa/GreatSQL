@@ -1,0 +1,1 @@
+{"transactions_types": ["code", "name", "description"], "roles": ["code", "name", "description"], "entities_types": ["code", "name", "description"], "transactions": ["id", "date", "name", "#transaction_type_code", "#entity_id", "#role_code"], "entities": ["id", "official_name", "first_assignment_date", "last_update_date", "expiration_date", "#entity_type_code"]}

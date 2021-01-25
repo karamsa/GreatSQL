@@ -1,0 +1,1 @@
+{"accounts": ["id", "first_name", "last_name", "email", "details"], "currencies": ["code", "name", "description"], "settlements": ["id", "transaction_number", "amount", "date", "cancellation", "review_date", "description", "document_reference", "group_number", "#account_id", "#currency_code"]}

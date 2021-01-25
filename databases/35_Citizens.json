@@ -1,0 +1,1 @@
+{"citizens": ["id", "name", "address"], "services": ["id", "label", "description"], "citizens_services": ["#account_id", "#service_id"], "accounts": ["id", "date_creation", "status", "balance", "#citizen_id"], "transactions": ["id", "amount", "date", "#account_id"]}

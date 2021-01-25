@@ -1,0 +1,1 @@
+{"users": ["id", "gender", "first_name", "last_name", "phone", "address"], "authors": ["id", "first_name", "last_name"], "manuals": ["id", "title", "description", "location"], "users_requests": ["id", "date", "#user_id", "#manual_id"], "categories": ["id", "name"], "authors_manuals": ["#author_id", "#manual_id"], "categories_manuals": ["#category_id", "#manual_id"]}

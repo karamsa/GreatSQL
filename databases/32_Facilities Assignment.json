@@ -1,0 +1,1 @@
+{"facilities_types": ["code", "description"], "facilities": ["id", "description", "#facility_type_code"], "employees": ["id", "gender", "job", "first_name", "middle_name", "last_name", "qualifications", "birth_date"], "facilities_assignments": ["start_date", "end_date", "#facility_id", "#employee_id"]}

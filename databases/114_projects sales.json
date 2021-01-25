@@ -1,0 +1,1 @@
+{"companies": ["id", "name", "address"], "sales": ["id", "label", "datetime", "amount", "#store_id"], "stores": ["id", "name", "address", "#company_id"], "products": ["id", "profit_margin", "name", "description"], "products_sales": ["quantity", "#product_id", "#sale_id"]}

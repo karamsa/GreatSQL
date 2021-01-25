@@ -1,0 +1,1 @@
+{"victims": ["id", "first_name", "last_name", "date_of_birth", "gender", "phone", "email", "address", "status"], "hospitals": ["id", "name", "location", "address"], "treatments": ["code", "description", "effectiveness"], "victims_treatments": ["start_date", "end_date", "result", "#victim_id", "#hospital_id", "#treatment_code"]}

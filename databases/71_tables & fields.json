@@ -1,0 +1,1 @@
+{"tables": ["id", "name", "description"], "fields": ["id", "name", "type"], "rules_types": ["code", "description"], "tables_fields": ["comments", "#table_id", "#field_id", "#rule_id"], "rules": ["id", "name", "sql_text", "description", "#rule_type_code"]}

@@ -1,0 +1,1 @@
+{"formats": ["code", "description"], "materials": ["id", "title", "description", "#format_code"], "topics": ["id", "name", "description"], "tags": ["id", "word", "description"], "topics_tags": ["#tag_id", "#topic_id"], "materials_tags": ["#material_id", "#tag_id"], "topics_materials": ["#material_id", "#topic_id"]}

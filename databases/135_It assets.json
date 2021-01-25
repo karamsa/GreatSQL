@@ -1,0 +1,1 @@
+{"employees": ["id", "first_name", "last_name", "department", "extension", "phone", "email"], "assets_types": ["code", "description"], "assets": ["id", "description", "#asset_type_code"], "employees_assets": ["returning_date", "condition_out", "returning_condition", "#asset_id", "#employee_id"], "assets_inventories": ["id", "date", "assigned", "number_in_stock", "#asset_id"]}

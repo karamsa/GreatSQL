@@ -1,0 +1,1 @@
+{"stores": ["id", "name", "phone", "email", "address"], "stores_products": ["#store_id", "#product_id"], "promotions": ["id", "name", "start_date", "end_date", "description"], "products_promotions": ["#product_id", "#promotion_id"], "products": ["id", "name", "price", "description", "#product_type_code"], "products_types": ["code", "description"]}

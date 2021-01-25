@@ -1,0 +1,1 @@
+{"outcomes": ["code", "name", "description"], "events": ["id", "name", "location", "address"], "roles": ["code", "description"], "participants": ["id", "name", "address", "contact_email", "#participant_type_code"], "participants_types": ["code", "description"], "events_participants": ["#role_code", "#event_id", "#outcome_code", "#participant_id"]}

@@ -1,0 +1,1 @@
+{"customers": ["id", "name"], "shipments": ["id", "date", "status", "address", "#order_id"], "orders": ["id", "date", "status", "#customer_id"], "products": ["id", "name", "description"], "products_orders": ["quantity", "#product_id", "#order_id"]}

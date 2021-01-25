@@ -1,0 +1,1 @@
+{"catalogs": ["id", "name", "publisher", "description", "date_of_publication", "revision_date"], "products": ["code", "price", "name", "description", "quantity_in_stock", "#catalog_id", "#characteristic_id"], "characteristics": ["id", "name", "data_type", "description", "details"]}

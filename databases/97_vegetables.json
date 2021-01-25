@@ -1,0 +1,1 @@
+{"soils_types": ["code", "description"], "vegetables": ["id", "description", "time_to_sow", "time_to_harvest", "planting_instructions", "sowing_instructions", "#soil_type_code"], "plants": ["id", "name", "description"], "pests_types": ["code", "description"], "companion_plants": ["comments", "#plant_id", "#vegetable_id"], "vegetables_pests": ["#pest_type_code", "#vegetable_id"]}

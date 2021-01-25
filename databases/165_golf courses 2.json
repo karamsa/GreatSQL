@@ -1,0 +1,1 @@
+{"courses": ["id", "name"], "holes": ["id", "label", "details", "#course_id"], "rounds": ["id", "label", "description"], "channels": ["id", "name", "description"], "coverages": ["#channel_id", "#hole_id", "#competitor_id"], "competitors": ["id", "name", "address"], "competitors_scores": ["score", "#round_id", "#hole_id", "#competitor_id"]}

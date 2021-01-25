@@ -1,0 +1,1 @@
+{"payments_methods": ["code", "description"], "customers": ["id", "name", "phone", "email", "address", "#payment_method_code"], "bookings": ["id", "date", "description", "#customer_id", "#event_id"], "events": ["id", "name", "description", "start_date", "end_date", "status", "cost", "extra_cost", "venue", "#event_type_code"], "events_types": ["code", "name"]}

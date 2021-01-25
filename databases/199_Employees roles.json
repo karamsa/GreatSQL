@@ -1,0 +1,1 @@
+{"owners": ["id", "login", "password"], "employees": ["id", "login", "password", "full_name", "job_title"], "roles": ["code", "label", "description"], "locations": ["id", "description", "#owner_id"], "employees_locations": ["#employee_id", "#location_id"], "employees_roles": ["start_date", "end_date", "#employee_id", "#role_code"]}

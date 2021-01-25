@@ -1,0 +1,1 @@
+{"films": ["id", "name", "description", "#production_company_id"], "tapes": ["id", "details", "#film_id", "#tape_category_code"], "tapes_categories": ["code", "description"], "productions_companies": ["id", "name", "address"]}

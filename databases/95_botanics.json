@@ -1,0 +1,1 @@
+{"families": ["id", "name", "description"], "plants": ["id", "name", "description", "#family_id", "#plant_hierarchy_id"], "locations": ["id", "name", "position"], "plants_locations": ["#location_id", "#plant_id"], "plants_hierarchies": ["id", "name", "details"]}

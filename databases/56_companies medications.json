@@ -1,0 +1,1 @@
+{"drugs_companies": ["code", "name"], "medications": ["id", "name", "price", "description", "#drug_company_code"], "payments_methods": ["code", "description"], "prescriptions": ["id", "name", "date", "status", "#payment_method_code"], "prescriptions_medications": ["quantity", "instructions", "#prescription_id", "#medication_id"]}

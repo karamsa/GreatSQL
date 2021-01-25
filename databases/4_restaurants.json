@@ -1,0 +1,1 @@
+{"restaurants": ["id", "name", "food_type", "rating"], "locations": ["house_number", "street_name", "#restaurant_id", "#city_name"], "geographics": ["city_name", "county", "region"]}

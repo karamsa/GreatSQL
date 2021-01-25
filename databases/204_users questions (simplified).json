@@ -1,0 +1,1 @@
+{"users": ["id", "login", "password", "email", "country", "first_name", "last_name", "phone"], "questions": ["id", "name", "text", "answer_text", "status", "creation_date", "answer_date", "#user_id", "#language_code"], "languages": ["code", "description"]}

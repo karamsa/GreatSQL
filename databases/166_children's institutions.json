@@ -1,0 +1,1 @@
+{"institutions": ["id", "name", "city", "state", "address", "contact"], "childrens_in_institutions": ["#child_id", "#institution_id"], "relatives": ["id", "name", "gender"], "childrens": ["id", "first_name", "last_name", "gender", "birth_date", "health", "special_needs"], "childrens_relatives": ["role", "#child_id", "#relative_id"]}

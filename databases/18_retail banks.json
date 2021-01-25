@@ -1,0 +1,1 @@
+{"customers": ["id", "name", "address", "contact_details", "#branch_id"], "banks": ["id", "name"], "branches": ["id", "name", "address", "#bank_id"], "accounts": ["number", "status", "current_balance", "#account_type_code", "#customer_id"], "transactions": ["id", "amount", "date", "#account_number"], "accounts_types": ["code", "description"]}

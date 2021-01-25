@@ -1,0 +1,1 @@
+{"projects": ["id", "name", "description", "client_name", "start_date", "end_date"], "documents": ["id", "name", "description", "creation_date", "last_modification_date", "#project_id", "#document_type_code"], "documents_types": ["code", "name", "description"]}

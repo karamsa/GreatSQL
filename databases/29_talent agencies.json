@@ -1,0 +1,1 @@
+{"auditions": ["id", "date", "#client_id", "#performer_id"], "performances": ["id", "address", "#audition_id"], "performers": ["id", "name", "phone", "gender", "address", "origin", "#talent_agency_id"], "talents_agencies": ["id", "name", "address"], "clients": ["id", "name", "address"]}

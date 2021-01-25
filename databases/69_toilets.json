@@ -1,0 +1,1 @@
+{"toilets": ["id", "model", "description"], "assemblies": ["id", "label", "details", "#toilet_id"], "components": ["id", "name", "description", "#assembly_id"]}

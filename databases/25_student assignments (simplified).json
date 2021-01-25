@@ -1,0 +1,1 @@
+{"schools": ["code", "name", "creation_date"], "students": ["id", "first_name", "last_name", "mobile_number", "email", "address", "#school_code"], "courses_registrations": ["#student_id", "#offered_course_id"], "offered_courses": ["id", "name", "semester"]}

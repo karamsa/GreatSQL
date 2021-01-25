@@ -1,0 +1,1 @@
+{"events_types": ["code", "description"], "events": ["id", "title", "date", "description", "#event_type_code"], "events_participant": ["#event_id", "#participant_id", "#role_code"], "participants": ["id", "name", "gender", "birth_date", "#participant_category_code"], "participants_categories": ["code", "description"], "roles": ["code", "label", "description"]}

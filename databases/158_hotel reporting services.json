@@ -1,0 +1,1 @@
+{"hotels": ["id", "name", "country", "city", "address", "score"], "rooms": ["id", "type", "price", "#hotel_id"], "bookings": ["id", "start_date", "end_date", "details", "#room_id", "#guest_id"], "guests": ["id", "first_name", "last_name", "phone", "email"], "payments": ["id", "status", "date", "amount", "#booking_id"]}

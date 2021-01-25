@@ -1,0 +1,1 @@
+{"subscriptions": ["id", "details", "start_date", "end_date", "status", "#publication_id", "#subscriber_id"], "publications": ["id", "title", "description", "source"], "subscribers": ["id", "name", "location", "address"]}

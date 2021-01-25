@@ -1,0 +1,1 @@
+{"customers": ["id", "first_name", "last_name", "middle_name", "organisation", "birth_date", "gender"], "bookings": ["id", "details", "#customer_id"], "bags": ["id", "description", "#booking_id"]}

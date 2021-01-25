@@ -1,0 +1,1 @@
+{"organisations": ["id", "name", "address"], "employees": ["id", "first_name", "middle_name", "last_name", "gender", "date_of_birth", "address"], "units": ["id", "name", "description", "department", "#organisation_id"], "assignments": ["id", "description", "start_date", "end_date", "role", "#employee_id", "#unit_id"]}

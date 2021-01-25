@@ -1,0 +1,1 @@
+{"songs": ["id", "name", "popularity", "duration", "acousticness", "danceability", "energy", "instrumentalness", "key", "liveness", "loudness", "audio_mode", "speechiness", "tempo", "time_signature", "audio_valence", "#artist_id"], "artists": ["id", "full_name", "#album_id"], "albums": ["id", "title"]}

@@ -1,0 +1,1 @@
+{"events_types": ["code", "description"], "events": ["id", "name", "start_date", "end_date", "venue", "#event_type_code"], "registrations": ["id", "datetime", "date", "seat_count", "#event_id", "#customer_id"], "reservations": ["id", "datetime", "date", "seat_count", "#customer_id"], "customers": ["id", "name", "phone", "email", "address", "payment_method"]}

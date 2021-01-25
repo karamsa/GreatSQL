@@ -1,0 +1,1 @@
+{"businesses_categories": ["code", "description"], "members": ["id", "business_name", "contact_name", "company_profile", "email", "phone", "photo_url", "website_link", "start_date", "end_date", "address", "#business_category_code", "#membership_type_code"], "membership_types": ["code", "description"]}

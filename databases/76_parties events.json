@@ -1,0 +1,1 @@
+{"parties": ["id", "name", "type", "address", "email", "phone"], "events": ["id", "date", "description", "type"], "transactions": ["id", "label", "date", "type", "amount", "reference", "#event_id", "#party_id"], "parties_events": ["role", "#event_id", "#party_id"]}

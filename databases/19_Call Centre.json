@@ -1,0 +1,1 @@
+{"customers": ["id", "first_name", "last_name", "phone", "email", "#business_sector_id", "#customer_type_code"], "customers_types": ["code", "description"], "calls": ["id", "date_time", "description", "#call_status_code", "#call_outcome_code"], "calls_status": ["code", "description"], "calls_outcome": ["code", "description"], "businesses_sectors": ["id", "code", "description"]}

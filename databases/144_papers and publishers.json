@@ -1,0 +1,1 @@
+{"topics": ["code", "keyword"], "papers_topics": ["#topic_code", "#paper_id"], "papers_types": ["code", "description"], "publishers": ["id", "name", "description", "contact_email"], "papers": ["id", "title", "author_first_name", "author_last_name", "source", "start_page", "end_page", "publication_date", "#publisher_id", "#paper_type_code"]}

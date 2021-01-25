@@ -1,0 +1,1 @@
+{"users": ["id", "first_name", "last_name", "login", "password", "#role_code"], "roles": ["code", "description"], "equipments": ["id", "asset_number", "serial_number", "tooling_name", "issue_date", "embossing_name", "location", "expiry_date", "#tooling_type_code"], "tooling_types": ["code", "description"], "access_rights": ["crud_value", "#role_code", "#equipment_id"]}

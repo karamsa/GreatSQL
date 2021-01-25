@@ -1,0 +1,1 @@
+{"customers": ["id", "name", "address"], "collectors": ["id", "name"], "payments": ["id", "date", "amount", "remarks", "#loan_contract_id", "#payment_type_id"], "payments_types": ["code", "description"], "loans_contracts": ["id", "start_date", "end_date", "interest_rate", "amount", "payment_frequency", "#collector_id", "#customer_id"]}

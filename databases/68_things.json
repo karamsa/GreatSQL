@@ -1,0 +1,1 @@
+{"things_types": ["code", "name", "description"], "things": ["id", "name", "details", "#location_code", "#state_code"], "locations": ["code", "details"], "states": ["code", "name"]}

@@ -1,0 +1,1 @@
+{"courses": ["id", "name", "details"], "holes": ["number", "name", "length", "par", "details", "#course_id"]}

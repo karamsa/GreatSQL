@@ -1,0 +1,1 @@
+{"venues": ["id", "name", "location"], "events": ["id", "title", "description", "address", "#venue_id"], "accomodations": ["id", "name", "description", "type"], "competitors": ["id", "country", "gender", "#accomodation_id"], "events_competitors": ["result", "#competitor_id", "#event_id"]}

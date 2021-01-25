@@ -1,0 +1,1 @@
+{"banks": ["id", "name", "address"], "branches": ["id", "name", "description", "address", "#bank_id"], "clients": ["id", "name", "address", "email", "phone"], "accounts": ["id", "opening_date", "close_date", "amount", "status", "#branch_id", "#client_id"], "balances": ["id", "date", "amount", "#account_id"]}

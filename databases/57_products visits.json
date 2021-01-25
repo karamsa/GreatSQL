@@ -1,0 +1,1 @@
+{"laboratories": ["id", "label"], "vendors": ["id", "details", "#laboratory_id"], "visits": ["id", "start_date", "end_date", "#vendor_id"], "products_types": ["code", "name", "description"], "products": ["id", "price", "name", "description", "#laboratory_id", "#product_type_code"], "products_visits": ["id", "quantity", "#visit_id", "#product_id"]}

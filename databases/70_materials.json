@@ -1,0 +1,1 @@
+{"materials": ["code", "name", "description"], "components": ["id", "label", "details", "#material_id"], "toilets": ["id", "model", "description"], "toilets_components": ["quantity", "#component_id", "#toilet_id"]}

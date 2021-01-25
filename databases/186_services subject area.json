@@ -1,0 +1,1 @@
+{"services_types": ["code", "name", "description"], "services": ["id", "description", "details", "#service_type_code"], "polices_reports": ["id", "title", "details", "#service_id", "#report_type_code"], "public_affairs": ["id", "description", "details", "#service_id"], "senior_bracelets": ["id", "name", "details"], "reports_types": ["code", "description"]}

@@ -1,0 +1,1 @@
+{"persons": ["id", "name", "password", "address", "#country_code", "#role_code", "#permission_level_code"], "roles": ["code", "description"], "countries": ["code", "name"], "permissions_levels": ["code", "description"], "payments": ["id", "amount", "date", "reference", "method", "#person_id"]}

@@ -1,0 +1,1 @@
+{"teachers": ["id", "first_name", "last_name", "address", "phone"], "books": ["id", "title", "publication_date", "isbn"], "books_authors": ["#author_id", "#book_id"], "authors": ["id", "first_name", "last_name"], "borrowed_books": ["id", "date", "issue_date", "amount", "return_date", "#teacher_id", "#book_id"]}

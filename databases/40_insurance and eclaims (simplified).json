@@ -1,0 +1,1 @@
+{"customers": ["id", "full_name", "birth_date", "address", "gender"], "policies": ["id", "status", "start_date", "end_date", "#customer_id", "#policy_type_code"], "policies_types": ["code", "description"], "claims": ["id", "date", "details", "status", "paid_amount", "date_settlement", "#claim_type_code", "#policy_id"], "claims_types": ["code", "description"]}

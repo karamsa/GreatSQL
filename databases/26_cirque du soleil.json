@@ -1,0 +1,1 @@
+{"performers": ["id", "first_name", "last_name", "gender", "#skill_code", "#organisation_id"], "organisations": ["id", "address", "name", "phone", "description"], "shows": ["id", "title", "description"], "skills": ["code", "description"], "events": ["id", "location", "#organisation_id", "#show_id"]}

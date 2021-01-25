@@ -1,0 +1,1 @@
+{"hospitals": ["id", "name", "description", "manager_name", "address", "contact_email"], "supplies": ["id", "name", "description", "unit_cost", "level", "interval", "#supply_category_code"], "supplies_categories": ["code", "description"], "inventories": ["id", "name", "location"], "inventories_supplies": ["id", "amount_in_stock", "#supply_id", "#inventory_id"]}

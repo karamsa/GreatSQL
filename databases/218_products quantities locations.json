@@ -1,0 +1,1 @@
+{"products_categories": ["code", "description"], "products": ["code", "name", "description", "#product_category_code"], "locations": ["code", "name"], "locations_quantities": ["quantity", "#location_code", "#product_code"]}

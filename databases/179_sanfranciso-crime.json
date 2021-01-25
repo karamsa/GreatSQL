@@ -1,0 +1,1 @@
+{"crimes_categories": ["id", "label", "description"], "incidents": ["number", "description", "address", "day_of_week", "date", "time", "latitude", "longitude", "location", "PDID", "#district_code", "#crime_category_id", "#resolution_id"], "districts": ["code", "name"], "resolutions": ["id", "title", "desctiption"]}

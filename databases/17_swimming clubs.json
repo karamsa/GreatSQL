@@ -1,0 +1,1 @@
+{"clubs": ["id", "name", "address"], "members": ["id", "name", "payment_frequency", "address", "birth_date", "#membership_type_code", "#club_id"], "membership_types": ["code", "label", "price"], "payments_methods": ["code", "description"], "payments": ["id", "amount", "#payment_method_code", "#member_id"]}

@@ -1,0 +1,1 @@
+{"doctors": ["id", "name", "phone", "address", "gender", "birth_date", "speciality"], "visits": ["id", "#doctor_id", "#patient_id", "#appointment_id"], "appointments": ["id", "date", "details"], "patients": ["id", "name", "date_of_birth", "address", "gender", "phone", "email", "address"], "prescriptions": ["code", "description", "items", "#visit_id"]}

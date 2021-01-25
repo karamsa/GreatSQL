@@ -1,0 +1,1 @@
+{"employees": ["id", "first_name", "last_name", "job_title"], "victims": ["id", "name", "description", "details"], "volunteers": ["id", "name", "details"], "activities": ["id", "start_date", "end_date", "details", "#employee_id", "#victim_id", "#volunteer_id"]}

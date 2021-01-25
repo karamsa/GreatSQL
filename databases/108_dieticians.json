@@ -1,0 +1,1 @@
+{"clients": ["id", "first_name", "last_name", "height", "weight", "date_of_birth", "gender", "phone", "email", "address"], "diets": ["id", "name", "comments"], "dieticians": ["id", "name", "label"], "dieticians_appointments": ["date", "time", "#client_id", "#diet_id", "#dietician_id"]}

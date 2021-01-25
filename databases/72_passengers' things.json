@@ -1,0 +1,1 @@
+{"things_types": ["code", "name", "description"], "things": ["id", "name", "description", "details", "#thing_type_code"], "passengers": ["id", "name", "flight_number", "address"], "passengers_things": ["location", "etag", "etrack", "#thing_id", "#passenger_id"]}

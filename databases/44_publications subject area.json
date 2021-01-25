@@ -1,0 +1,1 @@
+{"crimes": ["code", "name", "description"], "safety_tips": ["id", "date_of_publication", "date_upload", "url", "text", "#crime_code"]}

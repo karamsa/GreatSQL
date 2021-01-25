@@ -1,0 +1,1 @@
+{"policies": ["id", "effective_date", "expiry_date", "#policy_category_code"], "policies_categories": ["code", "description"], "columns": ["id", "name", "details", "#policy_id"], "items": ["id", "name", "details", "#column_id"]}

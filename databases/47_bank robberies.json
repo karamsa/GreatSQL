@@ -1,0 +1,1 @@
+{"banks": ["id", "name", "address"], "banks_robberies": ["id", "description", "date", "amount", "#bank_id"], "banks_robbers": ["#bank_id", "#robber_id"], "robbers": ["id", "name", "birth_date", "address", "gender"], "arrests": ["id", "date", "description", "location", "#bank_robbery_id"]}

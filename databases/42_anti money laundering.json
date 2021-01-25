@@ -1,0 +1,1 @@
+{"persons": ["id", "first_name", "last_name", "birth_date", "address", "#organisation_id"], "transactions": ["id", "date_time", "amount", "details", "#account_id"], "accounts": ["id", "balance", "date_creation", "#account_type_code", "#person_id"], "accounts_types": ["code", "description"], "organisations": ["id", "name", "location", "address"]}

@@ -1,0 +1,1 @@
+{"menus": ["id", "name", "description"], "menus_meals": ["#menu_id", "#meal_id"], "meals": ["id", "date", "description"], "customers": ["id", "name", "phone", "address"], "employees": ["id", "first_name", "last_name", "gender", "role"], "bookings": ["id", "date", "amount", "#customer_id", "#employee_id"], "menus_bookings": ["#menus_id", "#booking_id"]}

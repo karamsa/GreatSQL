@@ -1,0 +1,1 @@
+{"roles": ["code", "name", "description"], "persons": ["id", "first_name", "last_name", "gender", "date_of_birth", "#role_code", "#organisation_id"], "organisations": ["id", "name", "details", "location"]}

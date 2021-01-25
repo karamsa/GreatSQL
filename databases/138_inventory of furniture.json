@@ -1,0 +1,1 @@
+{"properties": ["id", "name", "description", "location"], "appartments_types": ["code", "description"], "appartments": ["id", "title", "address", "location", "#appartment_type_code", "#property_id"], "assets_types": ["code", "description"], "appartments_inventories": ["id", "details", "#appartment_id", "#asset_type_code"]}

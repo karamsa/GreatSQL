@@ -1,0 +1,1 @@
+{"apps_categories": ["code", "name", "description"], "developers": ["id", "name", "email"], "suppliers": ["code", "name"], "apps": ["id", "name", "submission_date", "contact_email", "#developer_id", "#app_category_code"], "operating_systems": ["id", "name", "description", "#supplier_code"], "operating_systems_apps": ["#app_id", "#operating_system_id"]}

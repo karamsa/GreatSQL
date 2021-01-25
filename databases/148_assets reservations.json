@@ -1,0 +1,1 @@
+{"members": ["id", "gender", "first_name", "last_name", "address", "phone"], "reservations": ["id", "date", "#member_id", "#asset_id"], "libraries": ["id", "name", "address"], "assets": ["id", "title", "isbn", "publication_date", "#library_id", "#asset_type_code", "#author_id"], "authors": ["id", "first_name", "last_name"], "assets_types": ["code", "name", "description"]}

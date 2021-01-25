@@ -1,0 +1,1 @@
+{"templates_types": ["code", "description"], "templates": ["id", "start_date", "end_date", "version", "#template_type_code"], "documents": ["id", "version", "name", "description", "#template_id"], "paragraphs": ["id", "text", "#document_id"]}

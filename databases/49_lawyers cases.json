@@ -1,0 +1,1 @@
+{"roles": ["code", "name"], "cases": ["id", "title", "open_date", "close_date", "description"], "lawyers": ["id", "name", "address", "rate", "phone", "qualifications", "speciality"], "lawyers_cases": ["#role_code", "#case_id", "#lawyer_id"]}

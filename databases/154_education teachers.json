@@ -1,0 +1,1 @@
+{"classes": ["id", "start_date", "end_date", "#subject_code"], "teachers": ["id", "first_name", "last_name"], "teachers_classes": ["#class_id", "#teacher_id"], "students": ["id", "first_name", "last_name"], "subjects": ["code", "name"], "students_classes": ["id", "status", "#student_id", "#class_id"]}

@@ -1,0 +1,1 @@
+{"books_authors": ["#author_id", "#book_id"], "books_categories": ["#author_id", "#category_id"], "books": ["id", "title", "name", "isbn", "publication_date", "file_name"], "authors": ["id", "name", "address"], "categories": ["id", "name", "description"]}

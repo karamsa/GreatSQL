@@ -1,0 +1,1 @@
+{"agencies_categories": ["code", "description"], "agencies": ["id", "name", "rating", "phone", "email", "address", "#agency_category_code"], "officers": ["id", "phone", "email", "details", "address", "#agency_id"], "contacts": ["id", "first_name", "middle_name", "last_name", "gender", "phone", "email", "start_date", "end_date", "#officer_id"]}

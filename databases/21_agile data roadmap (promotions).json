@@ -1,0 +1,1 @@
+{"promotions": ["id", "start_date", "end_date", "name", "description", "details"], "calendar": ["id", "day", "hour"], "promotions_details": ["id", "average", "totals", "#promotion_id", "#calendar_id"]}

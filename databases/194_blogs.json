@@ -1,0 +1,1 @@
+{"users": ["id", "name", "login", "email", "password", "date_of_birth"], "blogs": ["id", "title", "date", "text", "type", "#user_id"], "comments": ["id", "date", "author", "title", "text", "#blog_id"]}

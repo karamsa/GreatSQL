@@ -1,0 +1,1 @@
+{"customers": ["id", "name", "phone", "email", "address"], "contracts": ["id", "label", "details", "#customer_id"], "payments": ["id", "date", "amount", "details", "#contract_id"]}

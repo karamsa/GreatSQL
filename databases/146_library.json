@@ -1,0 +1,1 @@
+{"users": ["id", "name", "address", "number", "email"], "books": ["id", "isbn", "title", "date_of_publication", "#author_id", "#category_id"], "authors": ["id", "first_name", "surname", "address"], "categories": ["id", "name"], "borrowed_books": ["id", "issue_date", "return_date", "amount", "#user_id", "#book_id"]}

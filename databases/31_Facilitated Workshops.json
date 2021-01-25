@@ -1,0 +1,1 @@
+{"organisations": ["code", "name", "location"], "participants": ["id", "name", "job", "email", "#organisation_code"], "workshops": ["id", "description", "start_date", "end_date", "location", "type"], "workshops_participants": ["#participant_id", "#workshop_id"]}

@@ -1,0 +1,1 @@
+{"categories": ["code", "name"], "projects": ["id", "name", "description", "#category_code"], "milestones": ["id", "description", "start_date", "end_date", "#project_id", "#skill_code", "#employee_id"], "skills": ["code", "label", "description"], "employees": ["id", "first_name", "last_name", "address", "gender"]}

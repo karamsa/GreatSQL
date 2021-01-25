@@ -1,0 +1,1 @@
+{"customers": ["id", "first_name", "last_name", "phone", "email", "address", "#customer_status_code"], "customers_status": ["code", "description"], "products": ["id", "label", "description", "price", "status"], "purchases": ["code", "amount", "date", "#customer_id", "#product_id"]}

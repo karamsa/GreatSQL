@@ -1,0 +1,1 @@
+{"customers": ["id", "name", "address"], "products": ["id", "name", "description", "number", "photo_url", "price", "capacity", "length", "height", "width", "#ranking_code", "#demographic_code"], "purchases": ["id", "date", "status", "#product_id", "#customer_id"], "rankings": ["code", "description"], "demographics": ["code", "description"]}

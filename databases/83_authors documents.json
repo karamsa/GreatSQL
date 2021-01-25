@@ -1,0 +1,1 @@
+{"authors": ["id", "first_name", "last_name", "address", "phone"], "documents": ["id", "name", "description", "date", "#author_id", "#document_type_code"], "documents_types": ["code", "name", "description"]}

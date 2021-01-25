@@ -1,0 +1,1 @@
+{"items_types": ["code", "description"], "items": ["id", "description", "quantity_in_stock", "rental_daily_rate", "#item_type_code"], "employees_items": ["#employee_id", "#item_id"], "employees": ["id", "name", "date_of_birth"], "employees_skills": ["#employee_id", "#skill_id"], "skills": ["id", "name", "date_of_birth", "address", "gender", "phone", "email", "address"]}

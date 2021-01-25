@@ -1,0 +1,1 @@
+{"clients": ["id", "first_name", "last_name", "address", "email", "phone"], "accounts": ["id", "balance", "status", "description", "#client_id", "#account_type_code"], "accounts_types": ["code", "description"], "transactions": ["id", "datetime", "amount", "#transaction_type_code", "#account_id"], "transactions_types": ["code", "description"]}

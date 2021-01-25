@@ -1,0 +1,1 @@
+{"employees": ["id", "name", "contact_email", "address"], "timesheets": ["id", "row", "date", "name", "number", "hours", "client", "demographic", "profession", "#employee_id", "#job_type_code", "#job_sub_type_code", "#service_id"], "jobs_types": ["code", "description"], "jobs_sub_types": ["code", "description"], "services": ["id", "name", "description", "status"]}

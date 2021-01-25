@@ -1,0 +1,1 @@
+{"accounts": ["id", "type", "name"], "countries": ["code", "name"], "industries": ["code", "name"], "transactions": ["id", "amount", "#account_id", "#country_code", "#currency_code", "#product_id", "#industry_code"], "currencies": ["code", "name"], "products": ["id", "name", "description", "price"]}

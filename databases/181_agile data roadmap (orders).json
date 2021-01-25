@@ -1,0 +1,1 @@
+{"customers": ["id", "name", "address", "phone"], "products": ["id", "label", "description", "price"], "customers_orders": ["id", "amount", "#customer_id"], "orders_items": ["quantiy", "#product_id", "#customer_order_id"]}

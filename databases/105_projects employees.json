@@ -1,0 +1,1 @@
+{"clients": ["id", "first_name", "last_name", "address", "email", "phone"], "projects": ["id", "name", "description", "start_date", "end_date", "budget", "#client_id"], "employees": ["id", "name", "email", "address", "phone", "job_title"], "projects_employees": ["#project_id", "#employee_id"]}

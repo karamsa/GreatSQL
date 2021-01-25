@@ -1,0 +1,1 @@
+{"teachers": ["id", "first_name", "last_name", "function"], "detentions": ["id", "description", "#incident_id", "#teacher_id", "#detention_type_code"], "detentions_types": ["code", "description"], "incidents": ["id", "label", "#incident_type_code"], "incidents_types": ["code", "description"]}

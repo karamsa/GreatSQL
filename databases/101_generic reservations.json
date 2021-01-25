@@ -1,0 +1,1 @@
+{"persons": ["id", "name", "address", "email"], "reservations": ["id", "date", "reference", "amount", "#event_id", "#person_id", "#payment_method_code"], "facilities": ["id", "label", "description"], "payments_methods": ["code", "description"], "events": ["id", "name", "description", "date", "#facility_id"]}

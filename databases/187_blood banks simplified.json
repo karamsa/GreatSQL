@@ -1,0 +1,1 @@
+{"donors": ["id", "religion", "gender", "date_of_birth", "first_name", "last_name", "home_phone", "work_phone", "address", "medical_condition", "medications"], "donations": ["id", "date", "#blood_bank_id", "#donor_id"], "employees": ["id", "name", "job_title", "qualifications", "birth_date", "category", "address", "#blood_bank_id"], "blood_banks": ["id", "address", "label"]}

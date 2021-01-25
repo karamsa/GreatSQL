@@ -1,0 +1,1 @@
+{"documents_types": ["code", "description"], "documents": ["code", "access_count", "name", "description", "#document_type_code", "#functional_area_code"], "users": ["id", "name", "login", "password", "#role_code"], "roles": ["code", "description"], "documents_roles": ["crud_value", "#document_code", "#role_code"], "functional_areas": ["code", "description"]}

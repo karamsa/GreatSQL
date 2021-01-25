@@ -1,0 +1,1 @@
+{"agents": ["number", "first_name", "last_name"], "events": ["id", "date", "code", "amount", "#agent_number", "#party_id", "#document_id"], "documents": ["id", "title", "description", "details"], "parties": ["id", "name", "location"]}

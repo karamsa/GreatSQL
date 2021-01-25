@@ -1,0 +1,1 @@
+{"subjects": ["code", "description"], "exams": ["id", "date", "name", "description", "#subject_code"], "questions_exams": ["#exam_id", "#question_id"], "questions": ["id", "text", "#question_type_code"], "questions_types": ["code", "description"], "answers": ["id", "text", "#question_id"]}

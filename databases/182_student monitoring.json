@@ -1,0 +1,1 @@
+{"students": ["id", "first_name", "last_name", "address", "email"], "teachers": ["id", "first_name", "last_name", "function"], "assessments": ["note", "#student_id", "#teacher_id"]}

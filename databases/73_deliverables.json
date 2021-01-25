@@ -1,0 +1,1 @@
+{"customers": ["id", "first_name", "last_name", "description"], "deliverables": ["id", "name", "description", "status", "details", "#customer_id"], "services": ["id", "name", "description", "details"], "deliveries": ["#service_id", "#deliverable_id"]}

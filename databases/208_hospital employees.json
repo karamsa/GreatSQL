@@ -1,0 +1,1 @@
+{"hospitals": ["id", "name", "location", "address", "contact_email"], "employees": ["id", "first_name", "last_name", "gender", "birth_name", "job_title", "qualifications", "#hospital_id"], "assignments": ["start_name", "end_date", "#employee_id", "#ward_id"], "wards": ["id", "name", "location", "description"]}

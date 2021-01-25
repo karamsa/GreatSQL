@@ -1,0 +1,1 @@
+{"schedules_categories": ["id", "name", "description"], "employees": ["id", "login", "password", "full_name", "job_title", "#employee_type"], "employees_types": ["code", "label", "description"], "schedules": ["id", "description", "start_date", "end_date", "#schedule_category_code"], "employees_schedules": ["#employee_id", "#schedule_id"]}

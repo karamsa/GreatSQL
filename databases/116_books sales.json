@@ -1,0 +1,1 @@
+{"authors": ["id", "first_name", "last_name", "initials"], "customers": ["id", "name", "address", "phone", "email"], "orders": ["id", "date", "value", "#customer_id"], "orders_items": ["quantity", "comment", "#order_id", "#book_id"], "books": ["id", "isbn", "title", "publication_date", "comments", "#book_category_code"], "books_categories": ["code", "description"]}

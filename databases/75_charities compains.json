@@ -1,0 +1,1 @@
+{"fundraisers": ["id", "first_name", "last_name", "address", "email", "phone"], "donations": ["id", "date", "amount", "label", "description", "#compain_code"], "employees": ["id", "name", "job_title", "address", "phone"], "compains": ["code", "start_date", "end_date", "amount", "#fundraiser_id"]}
