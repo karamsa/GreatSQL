@@ -154,6 +154,17 @@ For example:<br />
 `schema_index`: 8 is yelp <br />
 `schema_index`: 175 is Stack Overflow <br />
 
+## "from_tables":
+
+```code
+
+[
+  "clubs", //table name
+  ""  // alias
+],
+
+```
+
 ### Operators
 Operators: 
 
@@ -183,4 +194,6 @@ For example:<br />
 ### Acknowledgement
 
 We thank Sara Slila and the other anonymous annotator for their help and work in creating the GreatSQL dataset. We also thank all people near or far who provided feedback and participated in the promising discussions. 
+
+## FAQ
 
