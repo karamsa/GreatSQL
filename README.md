@@ -22,7 +22,10 @@ If you use GreatSQL, please cite the following work:
 
 ## Notes
 
-Tokenization and annotation are made manually. <br \> Please note that this is a limited version of GreatSQL(the paper is under-review). The full version will be available once the paper is approved
+- Tokenization and annotation are made manually. <br \> 
+- Please note that this is a limited version of GreatSQL(the paper is under-review). The full version will be available once the paper is approved <br \> 
+- The dataset includes all kind of types, except blob or files <br \> 
+- Not all queries return results as in the perfect situation  in the task of NL2SQL the model should return the correct SQL query even if there is no rows in database tables.
 
 ## Leaderboard
 
@@ -146,7 +149,7 @@ These files are contained in the `*.json` files. A line looks like the following
 
 The `database-names` file contains the full list of all used databases in this dataset. The `schema_index` attribute follows the same order of the schemas in the `database-names` file. 
 <br />
-For example:
+For example:<br />
 `schema_index`: 0 is academia <br />
 `schema_index`: 8 is yelp <br />
 `schema_index`: 175 is Stack Overflow <br />
@@ -155,23 +158,26 @@ For example:
 Operators: 
 
 ```json
-[
-  "=",
-  "<",
-  ">",
-  "<=",
-  ">=",
-  "!=",
-  "BETWEEN",
-  "IN",
-  "LIKE",
-  "NOT IN",
-  "NOT LIKE",
-  "IS NULL",
-  "IS NOT NULL"
-]
+["=", "<", ">", "<=", ">=", "!=", "BETWEEN", "IN", "LIKE", "NOT IN", "NOT LIKE", "IS NULL", "IS NOT NULL"]
 ```
 
-For example:
+For example:<br />
 `op 0`: is = <br />
 `op 6`: is BETWEEN <br />
+
+### Aggregation functions
+```json
+["", "COUNT", "MAX", "MIN", "AVG", "SUM"]
+```
+
+### Conjuction functions
+```json
+["AND", "OR"] 
+```
+
+### Order types
+```json
+["ASC", "DESC"]
+```
+
+
