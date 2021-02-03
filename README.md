@@ -1,7 +1,7 @@
 # GreatSQL
 
 
-a new large-scale, cross-domain and balanced dataset for Natural Language to SQL translation task [SQLSketch: Generating SQL Queries using a sketch-based approach](under peer-review).
+A new large-scale, cross-domain and balanced dataset for Natural Language to SQL translation task [SQLSketch: Generating SQL Queries using a sketch-based approach](under peer-review).
 
 
 ## Citation
@@ -11,7 +11,7 @@ If you use GreatSQL, please cite the following work:
 > Karam Ahkouk, Mustapha Machkour, Khadija Majhadi, Rachid Mama. 2021. SQLSketch: Generating SQL Queries using a sketch-based approach.
 
 ```
-@article{zhongSeq2SQL2017,
+@article{ahkoukSQLSketch2021,
   author    = {Karam Ahkouk and Mustapha Machkour and Khadija Majhadi and Rachid Mama},
   title     = {SQLSketch: Generating SQL Queries using a sketch-based approach},
   journal   = {-},
@@ -22,11 +22,11 @@ If you use GreatSQL, please cite the following work:
 
 ## Notes
 
-Tokenization and annotation are made manually. Please note that this is a limited version of GreatSQL(the paper is under-review). The full version will be available once the paper is approved
+Tokenization and annotation are made manually. <br \> Please note that this is a limited version of GreatSQL(the paper is under-review). The full version will be available once the paper is approved
 
 ## Leaderboard
 
-If you submit papers on GreatSQL, please consider sending a pull request to merge your results onto the leaderboard. By submitting, you acknowledge that your results are obtained purely by training on the training split and tuned on the dev split (e.g. you only evaluted on the test set once).
+If you submit papers on GreatSQL, please make a pull request to merge your results onto the leaderboard. By submitting, you acknowledge that your results are obtained purely by training on the train split and tuned on the dev split (e.g. you only evaluted on the test set once).
 
 ### supervised learning (Result of the test set only)
 
@@ -140,6 +140,8 @@ These files are contained in the `*.json` files. A line looks like the following
   },
 ```
 
+
+
 ### Databases
 
 The `database-names` file contains the full list of all used databases in this dataset. The `schema_index` attribute follows the same order of the schemas in the `database-names` file. 
@@ -148,3 +150,28 @@ For example:
 `schema_index`: 0 is academia <br />
 `schema_index`: 8 is yelp <br />
 `schema_index`: 175 is Stack Overflow <br />
+
+### Operators
+Operators: 
+
+```json
+[
+  "=",
+  "<",
+  ">",
+  "<=",
+  ">=",
+  "!=",
+  "BETWEEN",
+  "IN",
+  "LIKE",
+  "NOT IN",
+  "NOT LIKE",
+  "IS NULL",
+  "IS NOT NULL"
+]
+```
+
+For example:
+`op 0`: is = <br />
+`op 6`: is BETWEEN <br />
