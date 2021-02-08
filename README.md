@@ -52,7 +52,7 @@ These files are contained in the `*.json` files. A line looks like the following
 ```json
 {
     "question": "list the clubs that have less than 7 athletes",
-    "query_id": 45291,
+    "query_id": 2,
     "sql": "SELECT clubs.id, COUNT(athletes.*) FROM athletes JOIN clubs ON athletes.club_id = clubs.id GROUP BY clubs.id HAVING COUNT(athletes.*) < 7",
     "ground_truth": {
       "schema_index": 93,
