@@ -191,6 +191,37 @@ For example:<br />
 ["ASC", "DESC"]
 ```
 
+### Evaluation
+
+
+```json
+=======================Evaluation start=======================
+100%|████████████████████████████████████████████████████████████████████████████████| 31897/31897 [00:03<00:00, 8151.64it/s]
+=======================Evaluation end=======================
+
+=======================Global Accuracy=======================
+{
+  "em_accuracy": 23.9899686454442562,
+  "sem_accuracy": 15.5678778978978909 //this metric is not included in the paper (String Exact Match of SQLs)
+}
+=======================Partial Accuracy=======================
+{
+  "cm_accuracy": {
+    "select_accuracy": 80.9999686490892561,
+    "tables_accuracy": 63.4969636470345417,
+    "where_accuracy": 55.6234535675675862,
+    "group_by_accuracy": 26.5453646786786789,
+    "having_accuracy": 23.9999686454442562,
+    "order_by_accuracy": 33.7799372981785121,
+    "limit_accuracy": 60.9999372981785127
+  }
+}
+
+```
+
+
+
+
 ### Acknowledgement
 
 We thank Sara Slila and the other anonymous annotator for their help and work in creating the GreatSQL dataset. We also thank all people near or far who provided feedback and participated in the promising discussions. 
