@@ -2,6 +2,17 @@
 
 
 A new large-scale, cross-domain and balanced dataset for Natural Language to SQL translation task [SQLSketch: Generating SQL Queries using a sketch-based approach](under peer-review).
+<br />
+| \# pairs | Cross-domain  | \# DBs | \# Domains | \# Tables/DB |
+| :---: | :---: |  :---: | :---: |  :---:        |
+| 45969 | Yes | 224 | 195 | 5.6 |
+
+## Notes
+
+- Tokenization and annotation are made manually. <br \> 
+- Please note that this is a limited version of GreatSQL(the paper is under-review). The full version will be available once the paper is approved <br \> 
+- The dataset includes all kind of types, except blob or files <br \> 
+- Not all queries return results as in the perfect situation  in the task of NL2SQL the model should return the correct SQL query even if there is no rows in database tables.
 
 
 ## Citation
@@ -19,13 +30,6 @@ If you use GreatSQL, please cite the following work:
   year      = {2021}
 }
 ```
-
-## Notes
-
-- Tokenization and annotation are made manually. <br \> 
-- Please note that this is a limited version of GreatSQL(the paper is under-review). The full version will be available once the paper is approved <br \> 
-- The dataset includes all kind of types, except blob or files <br \> 
-- Not all queries return results as in the perfect situation  in the task of NL2SQL the model should return the correct SQL query even if there is no rows in database tables.
 
 ## Leaderboard
 
@@ -193,8 +197,28 @@ For example:<br />
 
 ### Evaluation
 
+We provide the code for the evaluation as a standalone script file in `evaluation/evaluation.py`. We integrated 3 metrics for the evaluation the Exact Match (EM) and the String Exact Match (SEM) and also we provide partial accuracies for evaluating the performance of the model. Note that the EM metric is based on components matching and ignores the order of conditions. For more information on how EM is calculated please see in `evaluation/evaluation.py`.
 
-```json
+The evaluation script requires 3 parameters:  
+
+```code
+usage: evaluation.py [-h]
+                     dataset_file_path predicted_sqls_file_path predicted_components_file_path
+
+positional arguments:
+  dataset_file_path     source file for the prediction(train, dev or test set
+                        file)
+  predicted_sqls_file_path
+                        SQL predictions by the model. One SQL query per line
+  predicted_components_file_path
+                        component predictions by the model. Has the same
+                        structure of the ground truth of the dataset files
+```
+Example of the predicted sqls file, that should include one sql query per line and the predicted json components file that contains the json annotations of sql queries, are included in the `/evaluation` folder.<br/>
+
+When runnunig the code, the result should be something like this:
+
+```code
 =======================Evaluation start=======================
 100%|████████████████████████████████████████████████████████████████████████████████| 31897/31897 [00:03<00:00, 8151.64it/s]
 =======================Evaluation end=======================
