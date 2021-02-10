@@ -9,9 +9,9 @@ A new large-scale, cross-domain and balanced dataset for Natural Language to SQL
 
 ## Notes
 
-- Tokenization and annotation are made manually. <br \> 
-- Please note that this is a limited version of GreatSQL(the paper is under-review). The full version will be available once the paper is approved <br \> 
-- The dataset includes all kind of types, except blob or files <br \> 
+- Tokenization and annotation are made manually. <br /> 
+- Please note that this is a limited version of GreatSQL(the paper is under-review). The full version will be available once the paper is approved <br /> 
+- The dataset includes all kind of types, except blob or files <br /> 
 - Not all queries return results as in the perfect situation  in the task of NL2SQL the model should return the correct SQL query even if there is no rows in database tables.
 
 
