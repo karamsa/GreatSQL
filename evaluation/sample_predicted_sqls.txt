@@ -1,0 +1,10 @@
+SELECT accounts.opening_date FROM accounts WHERE accounts.id >= 1050
+SELECT answers.id, answers.body FROM answers WHERE answers.body LIKE '%R%'
+SELECT tapes.id, tapes.details FROM tapes WHERE tapes.id >= 948
+SELECT * FROM events WHERE events.id = 964
+SELECT * FROM tags WHERE tags.id IN (SELECT questions_tags.tag_id FROM questions_tags JOIN questions ON questions_tags.question_id = questions.id WHERE questions.id IN (SELECT answers.question_id FROM answers WHERE answers.score > 50))
+SELECT books.* FROM books JOIN authors ON books.author_id = authors.id WHERE authors.id >= 833
+SELECT * FROM members WHERE members.last_name = 'Julia'
+SELECT COUNT(*) FROM roles
+SELECT * FROM tags WHERE tags.id IN (112121,126585)
+SELECT DISTINCT customers.street_address, customers.area_code FROM orders JOIN customers ON orders.customer_id = customers.id WHERE orders.date = '2017-01-24'

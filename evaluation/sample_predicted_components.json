@@ -1,0 +1,548 @@
+[
+  {
+    "select_columns": [
+      {
+        "table_name": "accounts",
+        "table_ind": 0,
+        "column_name": "opening_date",
+        "column_ind": 3,
+        "aggregation_ind": 0,
+        "column_distinct": "false"
+      }
+    ],
+    "from_tables": [
+      [
+        "accounts",
+        ""
+      ]
+    ],
+    "where": [
+      {
+        "table_name": "accounts",
+        "table_ind": 0,
+        "column_name": "id",
+        "column_ind": 0,
+        "operator_ind": 4,
+        "value": "1050",
+        "value_starts_at": 15,
+        "value_ends_at": 15
+      }
+    ],
+    "where_conjunction_ops": [],
+    "group_by": [],
+    "having": [],
+    "having_conjunction_ops": [],
+    "order_by": [],
+    "limit": [],
+    "where_conditions_groups": [],
+    "joins": []
+  },
+  {
+    "select_columns": [
+      {
+        "table_name": "answers",
+        "table_ind": 0,
+        "column_name": "body",
+        "column_ind": 4,
+        "aggregation_ind": 0,
+        "column_distinct": "false"
+      },
+      {
+        "table_name": "answers",
+        "table_ind": 0,
+        "column_name": "id",
+        "column_ind": 0,
+        "aggregation_ind": 0,
+        "column_distinct": "false"
+      }
+    ],
+    "from_tables": [
+      [
+        "answers",
+        ""
+      ]
+    ],
+    "where": [
+      {
+        "table_name": "answers",
+        "table_ind": 0,
+        "column_name": "body",
+        "column_ind": 4,
+        "operator_ind": 8,
+        "value": "R",
+        "value_starts_at": 9,
+        "value_ends_at": 9
+      }
+    ],
+    "where_conjunction_ops": [],
+    "group_by": [],
+    "having": [],
+    "having_conjunction_ops": [],
+    "order_by": [],
+    "limit": [],
+    "where_conditions_groups": [
+      0
+    ],
+    "joins": []
+  },
+  {
+    "select_columns": [
+      {
+        "table_name": "tapes",
+        "table_ind": 1,
+        "column_name": "id",
+        "column_ind": 0,
+        "aggregation_ind": 0,
+        "column_distinct": "false"
+      },
+      {
+        "table_name": "tapes",
+        "table_ind": 1,
+        "column_name": "details",
+        "column_ind": 1,
+        "aggregation_ind": 0,
+        "column_distinct": "false"
+      }
+    ],
+    "from_tables": [
+      [
+        "tapes",
+        ""
+      ]
+    ],
+    "where": [
+      {
+        "table_name": "tapes",
+        "table_ind": 1,
+        "column_name": "id",
+        "column_ind": 0,
+        "operator_ind": 4,
+        "value": "948",
+        "value_starts_at": 17,
+        "value_ends_at": 17
+      }
+    ],
+    "where_conjunction_ops": [],
+    "group_by": [],
+    "having": [],
+    "having_conjunction_ops": [],
+    "order_by": [],
+    "limit": [],
+    "where_conditions_groups": [],
+    "joins": []
+  },
+  {
+    "select_columns": [
+      {
+        "table_name": "events",
+        "table_ind": 1,
+        "column_name": "*",
+        "column_ind": -1,
+        "aggregation_ind": 0,
+        "column_distinct": "false"
+      }
+    ],
+    "from_tables": [
+      [
+        "events",
+        ""
+      ]
+    ],
+    "where": [
+      {
+        "table_name": "events",
+        "table_ind": 1,
+        "column_name": "id",
+        "column_ind": 0,
+        "operator_ind": 0,
+        "value": "964",
+        "value_starts_at": 7,
+        "value_ends_at": 7
+      }
+    ],
+    "where_conjunction_ops": [],
+    "group_by": [],
+    "having": [],
+    "having_conjunction_ops": [],
+    "order_by": [],
+    "limit": [],
+    "where_conditions_groups": [],
+    "joins": []
+  },
+  {
+    "select_columns": [
+      {
+        "table_name": "tags",
+        "table_ind": 3,
+        "column_name": "*",
+        "column_ind": -1,
+        "aggregation_ind": 0,
+        "column_distinct": "false"
+      }
+    ],
+    "from_tables": [
+      [
+        "tags",
+        ""
+      ]
+    ],
+    "where": [
+      {
+        "table_name": "tags",
+        "table_ind": 3,
+        "column_name": "id",
+        "column_ind": 0,
+        "operator_ind": 7,
+        "value": {
+          "select_columns": [
+            {
+              "table_name": "questions_tags",
+              "table_ind": 2,
+              "column_name": "tag_id",
+              "column_ind": 1,
+              "aggregation_ind": 0,
+              "column_distinct": "false"
+            }
+          ],
+          "from_tables": [
+            [
+              "questions_tags",
+              ""
+            ],
+            [
+              "questions",
+              ""
+            ]
+          ],
+          "where": [
+            {
+              "table_name": "questions",
+              "table_ind": 1,
+              "column_name": "id",
+              "column_ind": 0,
+              "operator_ind": 7,
+              "value": {
+                "select_columns": [
+                  {
+                    "table_ind": 0,
+                    "table_name": "answers",
+                    "column_name": "question_id",
+                    "aggregation_ind": 0,
+                    "column_ind": 5,
+                    "column_distinct": "false"
+                  }
+                ],
+                "from_tables": [
+                  [
+                    "answers",
+                    ""
+                  ]
+                ],
+                "where": [
+                  {
+                    "table_ind": 0,
+                    "table_name": "answers",
+                    "column_name": "score",
+                    "column_ind": 3,
+                    "operator_ind": 2,
+                    "value": "50",
+                    "value_starts_at": 10,
+                    "value_ends_at": 10
+                  }
+                ],
+                "where_conjunction_ops": [],
+                "group_by": [],
+                "having": [],
+                "having_conjunction_ops": [],
+                "order_by": [],
+                "limit": [],
+                "where_conditions_groups": [
+                  0
+                ],
+                "joins": []
+              }
+            }
+          ],
+          "where_conjunction_ops": [],
+          "group_by": [],
+          "having": [],
+          "having_conjunction_ops": [],
+          "order_by": [],
+          "limit": [],
+          "where_conditions_groups": [
+            0
+          ],
+          "joins": [
+            [
+              {
+                "table_name": "questions_tags",
+                "table_ind": 2,
+                "column_name": "question_id",
+                "column_ind": 0,
+                "alias": ""
+              },
+              {
+                "table_name": "questions",
+                "table_ind": 1,
+                "column_name": "id",
+                "column_ind": 0,
+                "alias": ""
+              }
+            ]
+          ]
+        }
+      }
+    ],
+    "where_conjunction_ops": [],
+    "group_by": [],
+    "having": [
+    ],
+    "having_conjunction_ops": [],
+    "order_by": [],
+    "limit": [],
+    "where_conditions_groups": [
+      0
+    ],
+    "joins": []
+  },
+  {
+    "select_columns": [
+      {
+        "table_name": "books",
+        "table_ind": 3,
+        "column_name": "*",
+        "column_ind": -1,
+        "aggregation_ind": 0,
+        "column_distinct": "false"
+      }
+    ],
+    "from_tables": [
+      [
+        "authors",
+        ""
+      ],
+      [
+        "books",
+        ""
+      ]
+    ],
+    "where": [
+      {
+        "table_name": "authors",
+        "table_ind": 2,
+        "column_name": "id",
+        "column_ind": 0,
+        "operator_ind": 4,
+        "value": "833",
+        "value_starts_at": 16,
+        "value_ends_at": 16
+      }
+    ],
+    "where_conjunction_ops": [],
+    "group_by": [],
+    "having": [],
+    "having_conjunction_ops": [],
+    "order_by": [],
+    "limit": [],
+    "where_conditions_groups": [],
+    "joins": [
+      {
+        "table_name": "books",
+        "table_ind": 3,
+        "column_name": "author_id",
+        "column_ind": 5,
+        "alias": ""
+      },
+      {
+        "table_name": "authors",
+        "table_ind": 2,
+        "column_name": "id",
+        "column_ind": 0,
+        "alias": ""
+      }
+    ]
+  },
+  {
+    "select_columns": [
+      {
+        "table_name": "members",
+        "table_ind": 0,
+        "column_name": "*",
+        "column_ind": -1,
+        "aggregation_ind": 0,
+        "column_distinct": "false"
+      }
+    ],
+    "from_tables": [
+      [
+        "members",
+        ""
+      ]
+    ],
+    "where": [
+      {
+        "table_name": "members",
+        "table_ind": 0,
+        "column_name": "last_name",
+        "column_ind": 3,
+        "operator_ind": 0,
+        "value": "Julia",
+        "value_starts_at": 8,
+        "value_ends_at": 8
+      }
+    ],
+    "where_conjunction_ops": [],
+    "group_by": [],
+    "having": [],
+    "having_conjunction_ops": [],
+    "order_by": [],
+    "limit": [],
+    "where_conditions_groups": [],
+    "joins": []
+  },
+  {
+    "select_columns": [
+      {
+        "table_name": "roles",
+        "table_ind": 2,
+        "column_name": "*",
+        "column_ind": -1,
+        "aggregation_ind": 0,
+        "column_distinct": "false"
+      }
+    ],
+    "from_tables": [
+      [
+        "roles",
+        ""
+      ]
+    ],
+    "where": [],
+    "where_conjunction_ops": [],
+    "group_by": [],
+    "having": [],
+    "having_conjunction_ops": [],
+    "order_by": [],
+    "limit": [],
+    "where_conditions_groups": [],
+    "joins": []
+  },
+  {
+    "select_columns": [
+      {
+        "table_name": "tags",
+        "table_ind": 3,
+        "column_name": "*",
+        "column_ind": -1,
+        "aggregation_ind": 0,
+        "column_distinct": "false"
+      }
+    ],
+    "from_tables": [
+      [
+        "tags",
+        ""
+      ]
+    ],
+    "where": [
+      {
+        "table_name": "tags",
+        "table_ind": 3,
+        "column_name": "id",
+        "column_ind": 0,
+        "operator_ind": 7,
+        "value": [
+          "112121",
+          "126585"
+        ],
+        "value_starts_at": [
+          4,
+          6
+        ],
+        "value_ends_at": [
+          4,
+          6
+        ]
+      }
+    ],
+    "where_conjunction_ops": [],
+    "group_by": [],
+    "having": [],
+    "having_conjunction_ops": [],
+    "order_by": [],
+    "limit": [],
+    "where_conditions_groups": [
+      0
+    ],
+    "joins": []
+  },
+  {
+    "select_columns": [
+      {
+        "column_distinct": "true",
+        "table_name": "customers",
+        "table_ind": 1,
+        "column_name": "street_address",
+        "column_ind": 3,
+        "aggregation_ind": 0
+      },
+      {
+        "column_distinct": "true",
+        "table_name": "customers",
+        "table_ind": 1,
+        "column_name": "area_code",
+        "column_ind": 7,
+        "aggregation_ind": 0
+      }
+    ],
+    "from_tables": [
+      [
+        "customers",
+        ""
+      ],
+      [
+        "orders",
+        ""
+      ]
+    ],
+    "where": [
+      {
+        "table_name": "orders",
+        "table_ind": 3,
+        "column_name": "date",
+        "column_ind": 1,
+        "operator_ind": 0,
+        "value": "2017-01-24",
+        "value_starts_at": 14,
+        "value_ends_at": 14
+      }
+    ],
+    "where_conjunction_ops": [],
+    "group_by": [],
+    "having": [],
+    "having_conjunction_ops": [],
+    "order_by": [],
+    "limit": [],
+    "where_conditions_groups": [
+      0
+    ],
+    "joins": [
+      [
+        {
+          "table_name": "orders",
+          "table_ind": 3,
+          "column_name": "customer_id",
+          "column_ind": 3,
+          "alias": ""
+        },
+        {
+          "table_name": "customers",
+          "table_ind": 1,
+          "column_name": "id",
+          "column_ind": 0,
+          "alias": ""
+        }
+      ]
+    ]
+  }
+]
