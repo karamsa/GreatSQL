@@ -46,12 +46,12 @@ If you submit papers on GreatSQL, please make a pull request to merge your resul
 
 ## Content and format
 
-Inside the data folder you will find the files in `json` format.
+Inside the `data` folder you will find the files in `json` format.
 
 
 ### Sample
 
-These files are contained in the `*.json` files. A line looks like the following:
+The pairs are included in `*.json` files. A line looks like the following:
 
 ```json
 {
@@ -177,8 +177,8 @@ Operators:
 ```
 
 For example:<br />
-`op 0`: is = <br />
-`op 6`: is BETWEEN <br />
+`op 0`: is `=` <br />
+`op 6`: is `BETWEEN` <br />
 
 ### Aggregation functions
 ```json
