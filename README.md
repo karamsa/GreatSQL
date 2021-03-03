@@ -39,6 +39,7 @@ If you submit papers on GreatSQL, please make a pull request to merge your resul
 
 | Model | Test exact matching accuracy |
 | :---: | :---:         |
+| [SQLSketch<br />(Ahkouk 2021)](https://github.com/karamsa/GreatSQL) | ![#43c641](https://via.placeholder.com/15/43c641/000000?text=+) `23.98` |
 | [Modified SQLNet<br />(Xu 2017)](https://arxiv.org/abs/1711.04436) | 10.9 |
 | [Modified Seq2SQL<br />(Zhong 2017)](https://arxiv.org/abs/1709.00103) | 1.9 |
 
