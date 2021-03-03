@@ -1,4 +1,5 @@
 # GreatSQL
+[![Build Status](https://travis-ci.org/karamsa/GreatSQL.svg?branch=master)](https://travis-ci.org/karamsa/GreatSQL)
 
 
 A new large-scale, cross-domain and balanced dataset for Natural Language to SQL translation task [SQLSketch: Generating SQL Queries using a sketch-based approach](under peer-review).
