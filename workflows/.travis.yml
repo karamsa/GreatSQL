@@ -1,5 +1,0 @@
-language: python
-python:
-  - "3.7.1"
-script:
-  - python evaluation/evaluation.py evaluation/sample_source.json evaluation/sample_predicted_sqls.txt evaluation/sample_predicted_components.json
