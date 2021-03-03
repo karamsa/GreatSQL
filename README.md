@@ -2,6 +2,17 @@
 
 
 A new large-scale, cross-domain and balanced dataset for Natural Language to SQL translation task [SQLSketch: Generating SQL Queries using a sketch-based approach](under peer-review).
+<br />
+| \# pairs | Cross-domain  | \# DBs | \# Domains | \# Tables/DB |
+| :---: | :---: |  :---: | :---: |  :---:        |
+| 45969 | Yes | 224 | 195 | 5.6 |
+
+## Notes
+
+- Tokenization and annotation are made manually. <br /> 
+- Please note that this is a limited version of GreatSQL(the paper is under-review). The full version will be available once the paper is approved <br /> 
+- The dataset includes all kind of types, except blob or files <br /> 
+- Not all queries return results as in the perfect situation  in the task of NL2SQL the model should return the correct SQL query even if there is no rows in database tables.
 
 
 ## Citation
@@ -20,13 +31,6 @@ If you use GreatSQL, please cite the following work:
 }
 ```
 
-## Notes
-
-- Tokenization and annotation are made manually. <br \> 
-- Please note that this is a limited version of GreatSQL(the paper is under-review). The full version will be available once the paper is approved <br \> 
-- The dataset includes all kind of types, except blob or files <br \> 
-- Not all queries return results as in the perfect situation  in the task of NL2SQL the model should return the correct SQL query even if there is no rows in database tables.
-
 ## Leaderboard
 
 If you submit papers on GreatSQL, please make a pull request to merge your results onto the leaderboard. By submitting, you acknowledge that your results are obtained purely by training on the train split and tuned on the dev split (e.g. you only evaluted on the test set once).
@@ -35,6 +39,7 @@ If you submit papers on GreatSQL, please make a pull request to merge your resul
 
 | Model | Test exact matching accuracy |
 | :---: | :---:         |
+| [SQLSketch<br />(Ahkouk 2021)](https://github.com/karamsa/GreatSQL) | ![#43c641](https://via.placeholder.com/15/43c641/000000?text=+) `23.98` |
 | [Modified SQLNet<br />(Xu 2017)](https://arxiv.org/abs/1711.04436) | 10.9 |
 | [Modified Seq2SQL<br />(Zhong 2017)](https://arxiv.org/abs/1709.00103) | 1.9 |
 
@@ -42,12 +47,12 @@ If you submit papers on GreatSQL, please make a pull request to merge your resul
 
 ## Content and format
 
-Inside the data folder you will find the files in `json` format.
+Inside the `data` folder you will find the files in `json` format.
 
 
 ### Sample
 
-These files are contained in the `*.json` files. A line looks like the following:
+The pairs are included in `*.json` files. A line looks like the following:
 
 ```json
 {
@@ -173,8 +178,8 @@ Operators:
 ```
 
 For example:<br />
-`op 0`: is = <br />
-`op 6`: is BETWEEN <br />
+`op 0`: is `=` <br />
+`op 6`: is `BETWEEN` <br />
 
 ### Aggregation functions
 ```json
@@ -193,8 +198,28 @@ For example:<br />
 
 ### Evaluation
 
+We provide the code for the evaluation as a standalone script file in `evaluation/evaluation.py`. We integrated 3 metrics for the evaluation the Exact Match (EM) and the String Exact Match (SEM) and also we provide partial accuracies for evaluating the performance of the model. Note that the EM metric is based on components matching and ignores the order of conditions. For more information on how EM is calculated please see in `evaluation/evaluation.py`.
 
-```json
+The evaluation script requires 3 parameters:  
+
+```code
+usage: evaluation.py [-h]
+                     dataset_file_path predicted_sqls_file_path predicted_components_file_path
+
+positional arguments:
+  dataset_file_path     source file for the prediction(train, dev or test set
+                        file)
+  predicted_sqls_file_path
+                        SQL predictions by the model. One SQL query per line
+  predicted_components_file_path
+                        component predictions by the model. Has the same
+                        structure of the ground truth of the dataset files
+```
+Example of the predicted sqls file, that should include one sql query per line and the predicted json components file that contains the json annotations of sql queries, are included in the `/evaluation` folder.<br/>
+
+When runnunig the code, the result should be something like this:
+
+```code
 =======================Evaluation start=======================
 100%|████████████████████████████████████████████████████████████████████████████████| 31897/31897 [00:03<00:00, 8151.64it/s]
 =======================Evaluation end=======================
