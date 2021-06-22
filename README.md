@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/karamsa/GreatSQL.svg?branch=master)](https://travis-ci.org/karamsa/GreatSQL)
 
 
-A new large-scale, cross-domain and balanced dataset for Natural Language to SQL translation task [SQLSketch: Generating SQL Queries using a sketch-based approach](under peer-review).
+A new large-scale, cross-domain and balanced dataset for Natural Language to SQL translation task. GreatSQL is part of our work [SQLSketch: Generating SQL Queries using a sketch-based approach](https://ip.ios.semcs.net/articles/journal-of-intelligent-and-fuzzy-systems/ifs210359).
 <br />
 | \# pairs | Cross-domain  | \# DBs | \# Domains | \# Tables/DB |
 | :---: | :---: |  :---: | :---: |  :---:        |
@@ -11,7 +11,6 @@ A new large-scale, cross-domain and balanced dataset for Natural Language to SQL
 ## Notes
 
 - Tokenization and annotation are made manually. <br /> 
-- Please note that this is a limited version of GreatSQL(the paper is under-review). The full version will be available once the paper is approved <br />. In the meantime, please contact us on k.ahkouk@uiz.ac.ma to get the full version
 - The dataset includes all kind of types, except blob or files <br /> 
 - Not all queries return results as in the perfect situation  in the task of NL2SQL the model should return the correct SQL query even if there is no rows in database tables.
 
@@ -26,8 +25,8 @@ If you use GreatSQL, please cite the following work:
 @article{ahkoukSQLSketch2021,
   author    = {Karam Ahkouk and Mustapha Machkour and Khadija Majhadi and Rachid Mama},
   title     = {SQLSketch: Generating SQL Queries using a sketch-based approach},
-  journal   = {-},
-  volume    = {-},
+  journal   = {Journal of Intelligent & Fuzzy Systems},
+  volume    = {40},
   year      = {2021}
 }
 ```
