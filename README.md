@@ -250,7 +250,7 @@ When runnunig the code, the result should be something like this:
 
 ### Acknowledgement
 
-We thank Sara Slila and the other anonymous annotator for their help and work in creating the GreatSQL dataset. We also thank all people near or far who provided feedback and participated in the promising discussions. 
+We thank all the anonymous annotators for their help and work in creating the GreatSQL dataset. We also thank all people near or far who provided feedback and participated in the promising discussions. 
 
 ## FAQ
 
