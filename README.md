@@ -41,6 +41,7 @@ If you submit papers on GreatSQL, please make a pull request to merge your resul
 | :---: | :---:         |
 | SQLSketch-TVC<br />(Ahkouk 2021) | ![#43c641](https://via.placeholder.com/15/43c641/000000?text=+) `34.2` |
 | [SQLSketch<br />(Ahkouk 2021)](https://ip.ios.semcs.net/articles/journal-of-intelligent-and-fuzzy-systems/ifs210359) | 23.98 |
+| [Modified SQLova <br />(Hwang et all 2021)](https://github.com/naver/sqlova) | 16.3 |
 | [Modified SQLNet<br />(Xu 2017)](https://arxiv.org/abs/1711.04436) | 10.9 |
 | [Modified Seq2SQL<br />(Zhong 2017)](https://arxiv.org/abs/1709.00103) | 1.9 |
 
