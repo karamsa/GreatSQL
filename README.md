@@ -13,6 +13,7 @@ A new large-scale, cross-domain and balanced dataset for Natural Language to SQL
 - Tokenization and annotation are made manually. <br /> 
 - The dataset includes all kind of types, except blob or files <br /> 
 - Not all queries return results as in the perfect situation  in the task of NL2SQL the model should return the correct SQL query even if there is no rows in database tables.
+- For baseline models, we ignore parts of queries that are not compatible with our dataset like sub-queries, joins, etc...
 
 
 ## Citation
@@ -37,14 +38,14 @@ If you submit papers on GreatSQL, please make a pull request to merge your resul
 
 ### supervised learning (Result of the test set only)
 
-| Model | Test exact matching accuracy |
+| Model | Test exact match accuracy |
 | :---: | :---:         |
 | SQLSketch-TVC<br />(Ahkouk 2021) | ![#43c641](https://via.placeholder.com/15/43c641/000000?text=+) `34.2` |
 | [SQLSketch<br />(Ahkouk 2021)](https://ip.ios.semcs.net/articles/journal-of-intelligent-and-fuzzy-systems/ifs210359) | 23.98 |
-| [Modified SQLova <br />(Hwang et all 2021)](https://github.com/naver/sqlova) | 16.3 |
 | [Modified SQLNet<br />(Xu 2017)](https://arxiv.org/abs/1711.04436) | 10.9 |
 | [Modified Seq2SQL<br />(Zhong 2017)](https://arxiv.org/abs/1709.00103) | 1.9 |
 
+- For baseline models, we ignore parts of queries that are not compatible with our dataset like sub-queries, joins, etc...
 
 
 ## Content and format
