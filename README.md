@@ -201,7 +201,7 @@ For example:<br />
 
 ### Evaluation
 
-We provide the code for the evaluation as a standalone script file in `evaluation/evaluation.py`. We integrated 3 metrics for the evaluation the Exact Match (EM) and the String Exact Match (SEM) and also we provide partial accuracies for evaluating the performance of the model. Note that the EM metric is based on components matching and ignores the order of conditions. For more information on how EM is calculated please see in `evaluation/evaluation.py`.
+We provide the code for the evaluation as a standalone script file in `evaluation/evaluation.py`. We integrated 3 metrics for the evaluation the Exact Match (EM) and the String Exact Match (SEM) (The SEM is not included in our paper) and also we provide partial accuracies for evaluating the performance of the model. Note that the EM metric is based on components matching and ignores the order of conditions. For more information on how EM is calculated please see in `evaluation/evaluation.py`.
 
 The evaluation script requires 3 parameters:  
 
@@ -213,7 +213,7 @@ positional arguments:
   dataset_file_path     source file for the prediction(train, dev or test set
                         file)
   predicted_sqls_file_path
-                        SQL predictions by the model. One SQL query per line
+                        SQL predictions by the model. One SQL query per line (Please put an empty file if you don't use SEM)
   predicted_components_file_path
                         component predictions by the model. Has the same
                         structure of the ground truth of the dataset files
@@ -230,7 +230,7 @@ When runnunig the code, the result should be something like this:
 =======================Global Accuracy=======================
 {
   "em_accuracy": 23.9899686454442562,
-  "sem_accuracy": 15.5678778978978909 //this metric is not included in the paper (String Exact Match of SQLs)
+  "sem_accuracy": //this metric (String Exact Match of SQLs) is not used and not included in our paper 
 }
 =======================Partial Accuracy=======================
 {
