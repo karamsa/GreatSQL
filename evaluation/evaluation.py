@@ -141,8 +141,15 @@ if __name__ == '__main__':
     total_json_components_queries = len(predicted_components)
 
     #Check the length of each file and make sure they have all the same length
-    if (total_samples == total_sql_queries == total_json_components_queries):
+    if (total_samples == total_json_components_queries):
         
+        # Check if no SEM(String Exact Match) is used
+        if (total_samples != total_sql_queries):
+            total_sql_queries = total_json_components_queries
+            predicted_sqls = [""] * total_json_components_queries
+            print("SQL gold file doesn't have the same size as source file. The SEM metric will be ignored!")
+            print("    ")
+
         # loop over files 
         # get each sample from the source file, the predicted String SQL query and the predicted json components  
         for sample, predicted_sql, predicted_json in tqdm(zip(source_file, predicted_sqls, predicted_components), total = total_samples):
@@ -202,24 +209,35 @@ if __name__ == '__main__':
         print("    ")
         
         print("=======================Global Accuracy=======================")
+        em_accuracy = (sum(all_exact_match) / len(all_exact_match))*100
+        sem_accuracy = (sum(all_string_exact_match) / len(all_string_exact_match))*100
+
         print(json.dumps({
-            'em_accuracy': sum(all_exact_match) / len(all_exact_match),
-            'sem_accuracy': sum(all_string_exact_match) / len(all_string_exact_match),
+            'em_accuracy': em_accuracy,
+            'sem_accuracy': sem_accuracy,
             }, indent=2))
 
         print("=======================Partial Accuracy=======================")
+        select_accuracy= (sum(all_select_cl) / len(all_select_cl))*100
+        tables_accuracy= (sum(all_tables_cl) / len(all_tables_cl))*100
+        where_accuracy= (sum(all_where_cl) / len(all_where_cl))*100
+        group_by_accuracy= (sum(all_group_by_cl) / len(all_group_by_cl))*100
+        having_accuracy= (sum(all_having_cl) / len(all_having_cl))*100
+        order_by_accuracy= (sum(all_order_by_cl) / len(all_order_by_cl))*100
+        limit_accuracy= (sum(all_limit_cl) / len(all_limit_cl))*100
+
         print(json.dumps({
             'cm_accuracy': {
-                'select_accuracy': sum(all_select_cl) / len(all_select_cl),
-                'tables_accuracy': sum(all_tables_cl) / len(all_tables_cl),
-                'where_accuracy': sum(all_where_cl) / len(all_where_cl),
-                'group_by_accuracy': sum(all_group_by_cl) / len(all_group_by_cl),
-                'having_accuracy': sum(all_having_cl) / len(all_having_cl),
-                'order_by_accuracy': sum(all_order_by_cl) / len(all_order_by_cl),
-                'limit_accuracy': sum(all_limit_cl) / len(all_limit_cl)
+                'select_accuracy': select_accuracy,
+                'tables_accuracy': tables_accuracy,
+                'where_accuracy': where_accuracy,
+                'group_by_accuracy': group_by_accuracy,
+                'having_accuracy': having_accuracy,
+                'order_by_accuracy': order_by_accuracy,
+                'limit_accuracy': limit_accuracy
                 }
             }, indent=2))
 
     else:
-        print("The files have not the same number of queries. Please check that predicted queries are included in the SQLs and components files")
+        print("The files have not the same number of queries. Please check that predicted queries are included at least in the components files")
         exit()
