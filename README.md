@@ -11,8 +11,10 @@ A new large-scale, cross-domain and balanced dataset for Natural Language to SQL
 ## Notes
 
 - Tokenization and annotation are made manually. <br /> 
-- The dataset includes all kind of types, except blob or files <br /> 
-- Not all queries return results as in the perfect situation  in the task of NL2SQL the model should return the correct SQL query even if there is no rows in database tables.
+- The dataset includes the majority of types, except blob or files <br /> 
+- Not all queries return results as in the perfect situation in the task of NL2SQL the model should return the correct SQL query even if there is no rows in database tables.
+- Not dedicated for models that use Query execution.
+- Exact Match (EM) is the main metric used for evaluating models on this corpus.
 - For baseline models, we ignore parts of queries that are not compatible with our dataset like sub-queries, joins, etc...
 
 
@@ -220,39 +222,13 @@ positional arguments:
 ```
 Example of the predicted sqls file, that should include one sql query per line and the predicted json components file that contains the json annotations of sql queries, are included in the `/evaluation` folder.<br/>
 
-When runnunig the code, the result should be something like this:
 
-```code
-=======================Evaluation start=======================
-100%|████████████████████████████████████████████████████████████████████████████████| 31897/31897 [00:03<00:00, 8151.64it/s]
-=======================Evaluation end=======================
-
-=======================Global Accuracy=======================
-{
-  "em_accuracy": 23.9899686454442562,
-  "sem_accuracy": //this metric (String Exact Match of SQLs) is not used and not included in our paper 
-}
-=======================Partial Accuracy=======================
-{
-  "cm_accuracy": {
-    "select_accuracy": 80.9999686490892561,
-    "tables_accuracy": 63.4969636470345417,
-    "where_accuracy": 55.6234535675675862,
-    "group_by_accuracy": 26.5453646786786789,
-    "having_accuracy": 23.9999686454442562,
-    "order_by_accuracy": 33.7799372981785121,
-    "limit_accuracy": 60.9999372981785127
-  }
-}
-
-```
-
-
-
+### FAQ
+- This corpus is created in a question/answer concept. we don't support the use of content of databases(data Rows) in the generation of queries.
 
 ### Acknowledgement
 
 We thank all the anonymous annotators for their help and work in creating the GreatSQL dataset. We also thank all people near or far who provided feedback and participated in the promising discussions. 
 
-## FAQ
+
 
