@@ -7142,6 +7142,9 @@
       "#cast_id",
       "#person_id",
       "#movie_id"
+    ],
+    "cast": [
+      "id"
     ]
   },
   {
