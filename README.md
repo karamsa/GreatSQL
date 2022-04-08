@@ -225,6 +225,8 @@ Example of the predicted sqls file, that should include one sql query per line a
 
 ### FAQ
 - This corpus is created in a question/answer concept. we don't support the use of content of databases(data Rows) in the generation of queries.
+- The evaluation script is an example for evaluation only. It contains CM & EM accuracies only. You might need to calculate the CM scores in your code or by modifying the evaluation script to include CM scores in addition to CM accuracies to reflect what is in the paper.
+- Only EM accuracy is required to be included in the leaderbord. Please make a pull-request then. 
 
 ### Acknowledgement
 
