@@ -1,6 +1,9 @@
 # GreatSQL
 [![Build Status](https://travis-ci.org/karamsa/GreatSQL.svg?branch=master)](https://travis-ci.org/karamsa/GreatSQL)
 
+### !Important! ------
+(3 years ago when this corpus was created, the goal was to provide a corpus for training new models. Now this repository is no longer supported. but you can still fork the project or use/modify the data in it or even combine the data in this project with other corpuses without prior authorization)
+### ------------------
 
 A new large-scale, cross-domain and balanced dataset for Natural Language to SQL translation task. GreatSQL is part of our work [SQLSketch: Generating SQL Queries using a sketch-based approach](https://ip.ios.semcs.net/articles/journal-of-intelligent-and-fuzzy-systems/ifs210359).
 <br />
